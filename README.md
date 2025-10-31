@@ -58,4 +58,69 @@ This project aims to provide a **comprehensive learning experience** for beginne
 ---
 
 ## 🧩 Project Architecture
+CyberpunkPong/
+├── Assets/
+│ ├── Scripts/
+│ │ ├── PlayerController.cs
+│ │ ├── AIController.cs
+│ │ ├── BallController.cs
+│ │ └── GameController.cs
+│ ├── Materials/
+│ ├── Models/
+│ ├── Prefabs/
+│ ├── Scenes/
+│ │ └── MainScene.unity
+│ └── Audio/
+└── README.md
+
+
+---
+
+## 🧰 Tech Stack
+
+- **Game Engine:** Unity 3D  
+- **Programming Language:** C#  
+- **Design Theme:** Cyberpunk (neon lights, dark contrast, futuristic glow)  
+- **Assets:** Custom 3D models, particle systems, and audio  
+
+---
+
+## ▶️ How to Play
+
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/<your-username>/CyberpunkPong.git
+2. Open the project in Unity.
+
+3.Load the MainScene and press Play.
+
+4. Controls:
+
+Player 1: W / S to move
+
+Player 2: Up / Down Arrow
+
+First to reach target score wins!
+
+## 📚 Future Scope
+
+🌐 Online multiplayer support
+
+⚔️ Dynamic AI difficulty
+
+💥 Power-ups and level progression
+
+🧠 Advanced lighting and post-processing effects
+
+## Conclusion
+
+This project demonstrates how Unity can be used to create a complete, polished 3D game with modular code, rich visuals, and interactive gameplay — perfect for beginners exploring game development.
+
+👨‍💻 Author
+
+Aditya Bhavsar
+📧 [adityabhavsar010@gmail.com] 📍 India
+📧 [siddhesh55555jadhav@gmail.com] 📍 India
+📧 [chaitanyapatil0707@gmail.com] 📍 India
+
 
