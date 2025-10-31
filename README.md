@@ -128,7 +128,9 @@ This project demonstrates how Unity can be used to create a complete, polished 3
 
 Aditya Bhavsar
 📧 [adityabhavsar010@gmail.com] 📍 India
+Siddhesh Jadhav
 📧 [siddhesh55555jadhav@gmail.com] 📍 India
+Chaitanya Patil
 📧 [chaitanyapatil0707@gmail.com] 📍 India
 
 
