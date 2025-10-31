@@ -60,18 +60,26 @@ This project aims to provide a **comprehensive learning experience** for beginne
 ## 🧩 Project Architecture
 CyberpunkPong/
 ├── Assets/
-│ ├── Scripts/
-│ │ ├── PlayerController.cs
-│ │ ├── AIController.cs
-│ │ ├── BallController.cs
-│ │ └── GameController.cs
-│ ├── Materials/
-│ ├── Models/
-│ ├── Prefabs/
-│ ├── Scenes/
-│ │ └── MainScene.unity
-│ └── Audio/
-└── README.md
+│   ├── Scripts/
+│   │   ├── PlayerController.cs         # Controls player paddle movement
+│   │   ├── AIController.cs             # Handles AI paddle movement and logic
+│   │   ├── BallController.cs           # Controls ball physics, collisions, and scoring
+│   │   ├── GameController.cs           # Manages game states, UI updates, and score system
+│   │   └── UIManager.cs (optional)     # Handles menu UI, pause/restart, etc.
+│   │
+│   ├── Materials/                      # Cyberpunk-themed materials (neon glow, emissive)
+│   ├── Models/                         # 3D assets for paddles, ball, arena
+│   ├── Prefabs/                        # Prefab versions of paddles, ball, etc.
+│   ├── Scenes/
+│   │   └── MainScene.unity             # Main playable scene
+│   ├── Audio/                          # Game sound effects, background music
+│   └── UI/ (optional)                  # Menu buttons, HUD elements, fonts
+│
+├── ProjectSettings/                    # Unity-generated project configuration
+├── Packages/                           # Unity package manager dependencies
+├── .gitignore                          # To ignore cache/build/temp files
+└── README.md                           # Project overview and usage guide
+
 
 
 ---
